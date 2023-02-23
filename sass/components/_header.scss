@@ -1,61 +1,68 @@
 /* Header */
 .header {
-    height: 530px;
-    background: url(../img/header.jpg) no-repeat center center / cover;
-}
+  height: 530px;
+  background: url(../img/header.jpg) no-repeat center center / cover;
 
-.header nav {
+  nav {
     display: flex;
     justify-content: flex-end;
     padding: 20px 40px;
     z-index: 2;
     position: relative;
-}
 
-.header nav .login-btn {
-    cursor: pointer;
-    background: none;
-    border: none;
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    ul {
+        li {
+
+            .login-btn {
+              cursor: pointer;
+              background: none;
+              border: none;
+              color: #fff;
+              font-weight: bold;
+              text-transform: uppercase;
+              letter-spacing: 1px;
+            }
+        }
+    }
+
+  }
 }
 
 .header .logo {
-    width: 270px;
-    margin: 20px 0;
+  width: 270px;
+  margin: 20px 0;
 }
 
 .header .header-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 30px;
 }
 
 .header .header-text-1 {
-    font-size: 22px;
-    font-weight: bold;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .header .header-text-2 {
-    font-size: 18px;
-    margin: 25px 0;
+  font-size: 18px;
+  margin: 25px 0;
 }
 
 .header::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 180px;
-    z-index: 1;
-    background: linear-gradient(180deg,
-            rgba(0, 0, 0, 0.76) 15.54%,
-            rgba(0, 0, 0, 0.192) 60.23%,
-            rgba(0, 0, 0, 8e-5) 100%);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 180px;
+  z-index: 1;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.76) 15.54%,
+    rgba(0, 0, 0, 0.192) 60.23%,
+    rgba(0, 0, 0, 8e-5) 100%
+  );
 }
-

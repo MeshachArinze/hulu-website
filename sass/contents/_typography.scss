@@ -7,9 +7,16 @@ a:hover {
     color: #ccc;
 }
 
-ul {
-    list-style-type: none;
+nav  {
+    ul {
+        li {
+            list-style-type: none;
+        }
+        
+    }
+
 }
+
 
 img {
     width: 100%;

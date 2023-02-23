@@ -1,17 +1,21 @@
 /* Form */
-.form-control {
+
+form {
+  .form-control {
     margin: 20px 0;
-}
 
-.form-control label {
-    display: block;
-    text-transform: uppercase;
-}
+    label {
+      display: block;
+      text-transform: uppercase;
+      +
+      input {
+        width: 100%;
+        border: 2px #ccc solid;
+        border-radius: 5px;
+        height: 50px;
+        padding: 5px;
+      }
+    }
 
-.form-control input {
-    width: 100%;
-    border: 2px #ccc solid;
-    border-radius: 5px;
-    height: 50px;
-    padding: 5px;
+  }
 }

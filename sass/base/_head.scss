@@ -1,4 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
+$roboto-font-path: "https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap";
+
+@font-face {
+    // This is parsed as a normal function call that takes a quoted string.
+    src: url(roboto-font-path) format("woff2");
+
+    font-family: "Roboto";
+    font-weight: 500;
+}
+// @import url();
 
 * {
     box-sizing: border-box;
