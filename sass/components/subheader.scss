@@ -1,0 +1,21 @@
+/* Sub Header */
+.sub-header {
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+    gap: 40px;
+    align-items: center;
+    padding: 30px 40px;
+    background: linear-gradient(318.68deg,
+            #0f495c 0%,
+            #0d3640 49.72%,
+            #08141f 100%);
+}
+
+.sub-header>div:last-of-type {
+    justify-self: end;
+    align-self: end;
+}
+
+.sub-header>div:last-of-type .sub-link {
+    text-align: center;
+}

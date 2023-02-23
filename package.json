@@ -1,0 +1,12 @@
+{
+  "name": "hulu-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hulu.js",
+  "scripts": {
+    "watch": "sass --watch hulu.scss ./src/output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
