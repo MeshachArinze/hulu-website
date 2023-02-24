@@ -9,13 +9,14 @@
             #0f495c 0%,
             #0d3640 49.72%,
             #08141f 100%);
+
+            div:last-of-type {
+                justify-self: end;
+                align-self: end;
+
+                > .sub-link {
+                   text-align: center;
+               }
+            }
 }
 
-.sub-header>div:last-of-type {
-    justify-self: end;
-    align-self: end;
-}
-
-.sub-header>div:last-of-type .sub-link {
-    text-align: center;
-}
