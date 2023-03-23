@@ -19,3 +19,12 @@ function outsideClick(e) {
     closeModal()
   }
 }
+
+const modalRegister = document.getElementById("id01");
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+  if (event.target == modalRegister) {
+    modalRegister.style.display = "none";
+  }
+};
