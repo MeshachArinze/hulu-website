@@ -23,7 +23,7 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 60%;
   opacity: 0.9;
 }
 
@@ -39,7 +39,6 @@ button:hover {
 
 /* Float cancel and signup buttons and add an equal width */
 .cancelbtn, .signupbtn {
-  float: left;
   width: 50%;
 }
 
@@ -92,16 +91,10 @@ hr {
   cursor: pointer;
 }
 
-/* Clear floats */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
   .cancelbtn, .signupbtn {
-    width: 100%;
+    width: 60%;
   }
 }
